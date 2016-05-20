@@ -44,7 +44,7 @@ class SwooleApp extends HttpApp
     /**
      * @return string
      */
-    public static function end()
+    public function end()
     {
         AbstractApp::end();
 
