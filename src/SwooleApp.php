@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-declare (strict_types = 1);
+declare(strict_types = 1);
 
 namespace Cawa\Swoole;
 
@@ -32,7 +32,7 @@ class SwooleApp extends HttpApp
     }
 
     /**
-     * Load route & request
+     * Load route & request.
      */
     public function init()
     {

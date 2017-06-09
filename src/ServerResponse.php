@@ -9,13 +9,12 @@
  * file that was distributed with this source code.
  */
 
-declare (strict_types = 1);
+declare(strict_types = 1);
 
 namespace Cawa\Swoole;
 
 class ServerResponse extends \Cawa\Http\ServerResponse
 {
-
     /**
      * @param \swoole_http_response $response
      */
@@ -31,7 +30,6 @@ class ServerResponse extends \Cawa\Http\ServerResponse
     private $swooleResponse;
 
     /**
-     * @return void
      */
     private function sendHeaders()
     {
